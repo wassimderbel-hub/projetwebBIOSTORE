@@ -1,0 +1,306 @@
+body{
+    
+    background-color: #F3F4BC
+    
+}
+
+.bgimg{
+  width:100%;
+  height: 100%;
+  background: rgba(164, 224, 184, 0.3);
+
+}
+
+
+.parent{
+  background-image:url("../img/accueil.jpg") ;
+  background-size: cover;
+  background-position: 95%;
+
+}
+   
+
+.separation{
+    padding: 2%;
+}
+.quote{
+    
+    background-color: #9db621;
+    padding: 2%;
+    position: relative; 
+}
+
+.q{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative; 
+}
+
+.img1{
+    float: left;
+    width: 45%;
+    margin-left: 6%;
+    display: flex;
+    position: relative; 
+}   
+
+.img2{
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(216, 207, 128, 0.2);
+  border-radius: 2cm;
+}
+
+
+.liste{
+    margin-left: 60%;
+    font-size: 35px;
+    padding-top: 3%;
+    position: relative; 
+    
+}
+
+.buttonpanier{
+    background-color: #9db621;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 25%;
+    border: none;
+    position: relative; 
+
+}
+
+.buttonpanier:hover {
+    background-color: rgb(181, 142, 3);
+    position: relative; 
+}
+
+.panier{
+    margin-left: 33%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 40px;
+    position: relative; 
+
+}
+
+.buttonproduits{
+    background-color: #4F895A;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    position: relative; 
+}
+
+.buttonproduits:hover {
+    background-color: #b68f03;
+    position: relative; 
+}
+
+.buttonp{
+    margin-left: 48%;position: relative; 
+  
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+  background-color: #F3F4BC;
+  overflow-x: hidden;
+}
+.menu-bar{
+ 
+  height: 2cm;
+  display: flex;
+  width: 100%;
+  background-color: rgb(30, 82, 41,0.2); 
+  z-index: 2;
+}
+
+.fixed {
+position:fixed;
+}
+
+.img{
+margin-top: 10px;
+margin-left: 5px;
+}
+form {
+ display: flex;
+  width: 20%;
+  margin-top: 3%;
+  right: 0;
+  margin-bottom:0.1cm ;
+}
+.imgsearch {
+
+margin-right: 10px;
+margin-bottom:0.1cm ;
+}
+
+input{
+  color: white;
+  width: 180px;
+  height: 80%;
+  border-radius: 4cm;
+  background-color: rgb(77, 75, 7,0.4);
+}
+
+.imgpanier{margin-top: 18px;}
+.imglogin{margin-top: 45px;margin-right: 5px;}
+
+.menu-bar ul {
+  display: flex;
+  width: 60%;
+  color: #E5E5E5;
+  margin-top: 1cm;
+  margin-bottom: 0.5cm;
+  margin-left: 5cm;
+}
+
+.menu-bar ul li {
+margin-right: 50px;  
+}
+
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+ 
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.menu-bar ul li a:hover {
+background-color: #b68f03;
+color: #1E5128;
+font-weight: 900;
+padding-top: 20px;
+padding-left:10px;
+padding-right:10px ;
+padding-bottom:20px;
+
+}
+
+/* keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  } */
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+  
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+footer {
+
+  width: 100%;
+  height:100%;
+  background-color:#1E5128;
+  display: flex;
+  margin-bottom: -50px;
+}
+
+
+.eltfooter {
+  width: 50%;
+  margin-top: 1%;
+  margin-right: 20%;
+  position: relative;
+
+
+}
+
+.speltfooter {
+  margin-top: 1.6cm;
+  position: absolute;
+  font-size: 1em;
+  color: white;
+  width: 100%;
+}
+#spphone {
+  margin-top: 0.8cm;
+  position: absolute;
+  font-size: 1em;
+  font-weight: light;
+  color: white;
+}
+#spmail {
+  margin-top: 1.5cm;
+  position: absolute;
+  font-size: 1em;
+  font-weight: light;
+  color: white;}
+
+
