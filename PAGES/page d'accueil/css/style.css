@@ -239,7 +239,7 @@ input{
   }
   
   #carousel__slide1 {
-    background-image:url("../img/verdate.PNG");
+    background-image:url(../img/verdate.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -265,7 +265,7 @@ input{
     background-color: #E9DCA9;
   }
   #carousel__slide3 {
-    background-image:url("../img/bios.PNG");
+    background-image:url(../img/bios.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
